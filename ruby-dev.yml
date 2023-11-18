@@ -1,7 +1,7 @@
 id: ruby-dev-environment-check
 info:
   name: Ruby Development Environment Check
-  author: YourName
+  author: ahmedalroky
   severity: high
   description: |
     This nuclei template checks if the Ruby development environment is enabled by adding "?pp=analyze-memory" to the URL and looking for the presence of "?pp=analyze-memory" in the response.
